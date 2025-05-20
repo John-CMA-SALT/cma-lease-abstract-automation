@@ -1,4 +1,4 @@
-CMA Lease Abstract Automation
+# CMA Lease Abstract Automation
 This automation converts commercial real estate (CRE) lease files uploaded via Slack into structured, searchable data in Google Sheets, using no-code tools. All steps are orchestrated in Zapier and require no custom coding.
 
 Tech stack:
