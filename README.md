@@ -1,9 +1,20 @@
-# cma-lease-abstract-automation
-Workflow for processing files (of varying format) for a CRE lease into a lease abstract
-# CMA Lease Abstract Automation
+CMA Lease Abstract Automation
+This automation converts commercial real estate (CRE) lease files uploaded via Slack into structured, searchable data in Google Sheets, using no-code tools. All steps are orchestrated in Zapier and require no custom coding.
 
-This repository tracks the design documents for an automated workflow that converts lease files (PDFs or images) into a structured Google Sheet. The build uses no-code tools such as Zapier, Google Forms, PDF.co, OpenAI, and Slack.
+Tech stack:
 
-All automation steps are orchestrated through Zapier. Incoming files are OCR‑processed, analyzed by the `Lease‑Analyzer` assistant, and then mapped into a Google Sheets template that contains formulas for the rent schedule and QA checks.
+Slack (file intake & workflow trigger)
 
-Documentation is located in the `docs/` folder.
+Zapier (orchestration & looping)
+
+PDF.co (OCR/scanned PDF → searchable PDF)
+
+OpenAI (Lease Analyzer assistant for data extraction)
+
+Google Sheets (final destination for structured data)
+
+(Optional) Monday.com / Slack (notifications, status updates)
+
+Primary use case:
+
+Streamline and automate lease abstraction, eliminating manual data entry for CRE leases of varying complexity and formats.
